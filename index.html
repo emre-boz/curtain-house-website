@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky Curtain House</title>
+    <link rel="stylesheet" href="assets/main.css">
+  </head>
+  <body>
+    <header id="headSite">
+      <nav id="navbar-main">
+        <div class="menuButton">
+          <div class="hamburger-container">
+            <div class="menu-toggle">
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1>SKY CURTAIN HOUSE</h1>
+
+        <div class="navContact">
+          <div class="callImmediately">
+            <a href="tel:+905547381243">
+              <img src="assets/images/icons/phone-solid.svg" alt="" />
+              Call Now
+            </a>
+          </div>
+          <div class="navAdress">
+            <a href="https://maps.app.goo.gl/zffHNC6M8XdNVnNj6">
+              <img src="assets/images/icons/location-dot-solid.svg" alt="" />
+              Adress
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <aside class="sidebar">
+      <h2>MENU</h2>
+      <nav class="menu">
+        <a href="#" class="menu-item">HOME</a>
+        <a href="#" class="menu-item">ABOUT</a>
+        <a href="#" class="menu-item">STORIES</a>
+        <a href="#" class="menu-item">GALLERY</a>
+        <a href="#" class="menu-item">CONTACT</a>
+      </nav>
+    </aside>
+
+    <div class="sliderContainer">
+      <button id="left" class="arrowButtons">
+        <img src="assets/images//icons/chevron-left-solid.svg" alt="" />
+      </button>
+      <div class="box">
+        <div class="loader">
+          <div class="spinner"></div>
+        </div>
+        <div class="items"></div>
+      </div>
+      <button id="right" class="arrowButtons">
+        <img
+          id="rightSvg"
+          src="assets/images//icons/chevron-right-solid.svg"
+          alt=""
+        />
+      </button>
+    </div>
+
+    <div class="aboutUs">
+      <div class="aboutUsText">
+        <div class="aboutUsHeader">
+          <h1 class="section-title">About Us</h1>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur
+          reprehenderit tenetur distinctio sint minus. Nam similique eligendi
+          aperiam odit veniam quisquam exercitationem iusto id molestiae omnis
+          et facere hic voluptatum quis aliquam autem aliquid magni ea, tenetur
+          atque cum porro rerum! Culpa beatae tenetur iste obcaecati et facilis.
+          Maiores totam consequatur non eaque laboriosam magni, ipsum inventore,
+          doloremque reprehenderit velit est. A distinctio excepturi quis
+          consequatur quidem deserunt enim porro placeat saepe, non voluptate
+          labore fugit consectetur in corrupti, nulla animi quam ad doloribus
+          impedit architecto? Vitae sed assumenda rerum nam quod, omnis labore
+          aperiam, ducimus voluptate ipsam temporibus!
+        </p>
+      </div>
+      <img src="../assets/images/aboutus/tailoring-processsKKK.jpg" alt="" />
+    </div>
+
+    <div class="storiesContainer section">
+      <h1 class="section-title">User Stories</h1>
+      <div class="stories grid-boxes">
+        <div class="storyBox">
+          <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit."</p>
+          <p>- Lorem, ipsum.</p>
+        </div>
+        <div class="storyBox">
+          <p>
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea itaque
+            blanditiis numquam ipsam sint at dignissimos, explicabo, atque
+            fugiat, necessitatibus corrupti?"
+          </p>
+          <p>- Lorem, ipsum.</p>
+        </div>
+        <div class="storyBox">
+          <p>
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+            libero earum voluptate saepe natus."
+          </p>
+          <p>- Lorem, ipsum.</p>
+        </div>
+        <div class="storyBox">
+          <p>
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            eaque numquam saepe accusamus sit quos atque?"
+          </p>
+          <p>- Lorem, ipsum.</p>
+        </div>
+        <div class="storyBox">
+          <p>
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+            facere aspernatur accusamus deleniti a saepe consectetur voluptatum
+            quibusdam similique omnis itaque, modi incidunt dolorem.
+            Repudiandae."
+          </p>
+          <p>- Lorem, ipsum.</p>
+        </div>
+      </div>
+      <button id="addUserStory" class="btn-story">Write Your Story</button>
+    </div>
+
+    <div class="galleryContainer section">
+      <h1 class="section-title">Gallery</h1>
+      <div class="gallery grid-boxes"></div>
+    </div>
+    <div class="imageModal">
+      <button id="closeimageModal" class="closeModal">
+        <svg class="" viewBox="0 0 24 24">
+          <path
+            d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"
+          />
+          <path d="M0 0h24v24h-24z" fill="none" />
+        </svg>
+      </button>
+    </div>
+    <div class="contact section">
+      <h1 class="section-title">Contact Us</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.3446331033797!2d29.11386341208445!3d40.97393377123586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac66aa2fc2c4b%3A0x4499f8fbc9630196!2sG%C3%B6k%20Perde%20Evi!5e0!3m2!1sen!2str!4v1698261730806!5m2!1sen!2str"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="telanddays">
+        <div>
+          <h3>Phone Number</h3>
+          <p>0500000000</p>
+        </div>
+
+        <table>
+          <th colspan="3"><h3>Working Hours</h3></th>
+          <tr>
+            <td>Monday</td>
+            <td>9 AM - 8 PM</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>9 AM - 8 PM</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>9 AM - 8 PM</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>9 AM - 8 PM</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>9 AM - 8 PM</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>9 AM - 8 PM</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>CLOSED</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="contact-bottom">
+      <a href="tel:+905547381243">
+        <img src="assets/images/icons/phone-solid.svg" alt="" />
+        Call Now
+      </a>
+
+      <a href="https://maps.app.goo.gl/zffHNC6M8XdNVnNj6">
+        <img src="assets/images//icons/location-dot-solid.svg" alt="" />
+        Adress
+      </a>
+    </div>
+
+    <footer>
+      <div class="dashedLine"></div>
+      <div class="author">
+        <a href="https://github.com/emre-boz/curtain-house-website">Github Link</a>
+      </div>
+      <h3>Footages</h3>
+      <div>
+        Comfortable pillow on sofa decoration interior
+        <a
+          href="https://www.freepik.com/free-photo/comfortable-pillow-sofa-decoration-interior_9010968.htm#query=Curtain%20house&position=20&from_view=search&track=ais"
+          >Image by lifeforstock</a
+        >
+        on Freepik
+      </div>
+      <div>
+        Curtain with sunlight
+        <a
+          href="https://www.freepik.com/free-photo/curtain-with-sunlight_1241882.htm#query=Curtain%20house&position=0&from_view=search&track=ais"
+          >Image by topntp26</a
+        >
+        on Freepik
+      </div>
+      <div>
+        Window curtains
+        <a
+          href="https://www.freepik.com/free-photo/window-curtains_3816424.htm#query=Curtain%20house&position=13&from_view=search&track=ais"
+          >Image by lifeforstock</a
+        >
+        on Freepik
+      </div>
+      <div>
+        Luxury velvet couch room pillows
+        <a
+          href="https://www.freepik.com/free-photo/luxury-velvet-couch-room-pillows_1043569.htm#page=2&query=curtain%20window&position=11&from_view=search&track=ais"
+          >Image by mrsiraphol</a
+        >
+        on Freepik
+      </div>
+      <div>
+        Curtain with sunlight
+        <a
+          href="https://www.freepik.com/free-photo/curtain-with-sunlight_1241880.htm#page=2&query=curtain%20window&position=3&from_view=search&track=ais"
+          >Image by topntp26</a
+        >
+        on Freepik
+      </div>
+      <div>
+        Empty curtain interior decoration in living room
+        <a
+          href="https://www.freepik.com/free-photo/empty-curtain-interior-decoration-living-room_1241869.htm#page=2&query=Curtain%20house&position=19&from_view=search&track=ais"
+          >Image by topntp26</a
+        >
+        on Freepik
+      </div>
+      <div>
+        Curtain with sunlight
+        <a
+          href="https://www.freepik.com/free-photo/curtain-with-sunlight_1241875.htm#page=3&query=curtain&position=20&from_view=search&track=sph"
+          >Image by topntp26</a
+        >
+        on Freepik
+      </div>
+
+      <div>
+        Living elegance room clean luxury
+        <a
+          href="https://www.freepik.com/free-photo/living-elegance-room-clean-luxury_1044174.htm#query=curtain%20window&position=27&from_view=search&track=ais"
+          >Image by mrsiraphol</a
+        >
+        on Freepik
+      </div>
+      <div>
+        Window curtains
+        <a
+          href="https://www.freepik.com/free-photo/window-curtains_3660458.htm#page=3&query=curtain%20window&position=12&from_view=search&track=ais"
+          >Image by lifeforstock</a
+        >
+        on Freepik
+      </div>
+      <div>
+        Fabric textured layers background
+        <a
+          href="https://www.freepik.com/free-photo/fabric-textured-layers-background_3011975.htm#page=4&query=curtain&position=10&from_view=search&track=sph"
+          >Image by rawpixel.com</a
+        >
+        on Freepik
+      </div>
+      <div>
+        Tailoring processs
+        <a
+          href="https://www.freepik.com/free-photo/tailoring-processs_5633583.htm#query=tailor&position=2&from_view=search&track=sph&uuid=e1f212ca-60a5-40f5-acd4-81cb4c3fbdbe"
+          >Image by pressfoto</a
+        >
+        on Freepik
+      </div>
+
+      <div class="footer-bottom">
+        <small
+          >© Sky Curtain House <span id="year">2023</span>, All rights
+          reserved</small
+        >
+        <span class="social-links">
+          <a>
+            <img
+              src="assets/images/logos/instagram.svg"
+              title="Instagram"
+              alt="Instagram"
+            />
+          </a>
+          <a>
+            <img
+              src="assets/images/logos/facebook.svg"
+              title="Facebook"
+              alt="Facebook"
+            />
+          </a>
+          <a>
+            <img
+              src="assets/images/logos/linkedin.svg"
+              title="Linkedin"
+              alt="Linkedin"
+            />
+          </a>
+          <a>
+            <img
+              src="assets/images/logos/twitter.svg"
+              title="Twitter"
+              alt="Twitter"
+            />
+          </a>
+        </span>
+      </div>
+    </footer>
+
+    <div class="addStoryModal">
+      <div class="modalContentContainer">
+        <form class="modalContent">
+          <label for="userStoryName">Your Name</label>
+          <input type="text" id="userStoryName" maxlength="50" required />
+          <label for="userStory">Your story</label>
+          <textarea
+            name=""
+            id="userStory"
+            cols="30"
+            rows="5"
+            maxlength="150"
+            required
+          ></textarea>
+
+          <button id="closeStoryModal" class="closeModal">
+            <svg class="" viewBox="0 0 24 24">
+              <path
+                d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"
+              />
+              <path d="M0 0h24v24h-24z" fill="none" />
+            </svg>
+          </button>
+          <button id="submitUserStory" class="btn-story">Add Story</button>
+        </form>
+      </div>
+    </div>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
